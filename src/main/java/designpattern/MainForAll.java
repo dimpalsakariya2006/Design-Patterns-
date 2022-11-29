@@ -87,11 +87,11 @@ public class MainForAll {
 		
 		System.out.println("Enum Singleton :: ");
 		//creating object of enum
-		Abc e1 = Abc.INSTANCE;
+		EnumAbc e1 = EnumAbc.INSTANCE;
 		e1.i=5;
 		e1.show();
 		
-		Abc e2 = Abc.INSTANCE;
+		EnumAbc e2 = EnumAbc.INSTANCE;
 		e2.i=9;
 		e1.show();
 		

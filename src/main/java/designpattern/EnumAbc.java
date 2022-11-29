@@ -1,6 +1,6 @@
 package designpattern;
 
-public enum Abc {
+public enum EnumAbc {
 
 	INSTANCE;
 	
